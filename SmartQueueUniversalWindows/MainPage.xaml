@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="SmartQueueUniversalWindows.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartQueueUniversalWindows"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/StoreLogo.png" VerticalAlignment="Bottom" Margin="0,0,0,10" Height="50" Width="50"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Waiting hours in queue for your turn to be attended is a waste of time.  SmartQ allows you to take a queue number with a press of button.   You can go away for a while to do other business in the middle of the waiting.  SmartQ will update you the current queue status and alarm you when it is almost your turn to be served." VerticalAlignment="Top" FontSize="20"/>
+    </Grid>
+</Page>

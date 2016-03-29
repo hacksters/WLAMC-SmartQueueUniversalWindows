@@ -1,0 +1,1 @@
+D:\hack_2016\submit_github\SmartQueueUniversalWindows\SmartQueueUniversalWindows\SmartQueueUniversalWindows.csproj;arm
